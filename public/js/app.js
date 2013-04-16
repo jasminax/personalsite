@@ -1,3 +1,3 @@
 $(document).ready(function(){
-	alert("Hello Jasmina!");
+	//alert("Hello Jasmina!");
 })
