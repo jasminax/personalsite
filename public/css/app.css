@@ -22,3 +22,14 @@ body {
 	font-size: 72px;
 	line-height: 1;
 }
+
+/*jQuery fun*/
+#food h5{
+	margin:0 0 1px 0;
+	padding:5px 0 5px 10px;
+	background-color: ;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #999999;
+	border-radius: 5px;
+}
