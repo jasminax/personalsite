@@ -8,11 +8,11 @@ $(document).ready(function(){
 
 	$('#food > div').hide();
 
-	// $('#food > div:first').show();
+	$('#food > div:first').show();
 
 	$('#food h5').click(function(){
 		$(this).next().animate(
-			{'height':'toggle'}, 'slow')
+			{'height':'toggle'}, 'slow', 'easeInOutExpo')
 	});
 
 	$('#toggleButton').click(function(){
@@ -23,6 +23,10 @@ $(document).ready(function(){
 		} else{
 			$(this).val("Wat");
 		}
+	});
+
+	$('.carousel').carousel({
+		interval: 5000
 	});
 
 });

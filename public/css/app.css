@@ -25,11 +25,20 @@ body {
 
 /*jQuery fun*/
 #food h5{
-	margin:0 0 1px 0;
+	margin:0 0 5px 0;
 	padding:5px 0 5px 10px;
 	background-color: ;
 	border-width: 1px;
 	border-style: solid;
 	border-color: #999999;
 	border-radius: 5px;
+}
+
+hr {
+	margin: 0;
+}
+
+#food div{
+	position: relative;
+	text-align: center;
 }
