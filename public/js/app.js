@@ -8,7 +8,7 @@ $(document).ready(function(){
 
 	$('#food > div').hide();
 
-	$('#food > div:first').show();
+	// $('#food > div:first').show();
 
 	$('#food h5').click(function(){
 		$(this).next().animate(
