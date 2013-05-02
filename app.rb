@@ -7,3 +7,7 @@ end
 get '/jquery' do
 	erb :jquery
 end
+
+get '/javascript' do
+	erb :javascript
+end

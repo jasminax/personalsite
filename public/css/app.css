@@ -1,4 +1,4 @@
-body {
+html, body{
 	height: 100%;
 
 	/*padding-top: 20px;*/
@@ -21,6 +21,7 @@ body {
 	background-color: #f5f5f5;
 }
 
+
 /*Custom container*/
 .container-narrow {
 	margin: 0 auto;
@@ -40,6 +41,7 @@ body {
 	font-size: 72px;
 	line-height: 1;
 }
+
 
 .copyright {
 	padding: 10px;
