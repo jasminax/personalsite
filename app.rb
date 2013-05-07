@@ -11,3 +11,7 @@ end
 get '/javascript' do
 	erb :javascript
 end
+
+get '/blog' do
+	erb :blog
+end

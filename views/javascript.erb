@@ -15,9 +15,21 @@
 
 		<div class="masthead">
 			<ul class="nav nav-pills pull-right">
-				<li><a href='./'>Home</a></li>
-				<li><a href="./jquery">jQuery</a></li>
-				<li class = "active"><a href="#">JavaScript</a></li>
+				<li><a href='/'>Home</a></li>
+
+				<li><a href="/blog">Blog</a></li>
+
+				<li class="dropdown active"><a class="dropdown-toggle" id="drop4" role="button" data-toggle="dropdown" href="#">Gallery
+					<b class="caret"></b>
+				</a>
+				<ul id="gallery" class="dropdown-menu" role="menu" aria-labelledby="drop4">
+					<li role="presentation">
+						<a role="menuitem" tabindex="-1" href="/jquery">jQuery</a>
+					</li>
+					<li role="presentation"><a role="menuitem" tabindex="-1" href="/javascript">JavaScript</a>
+					</li>
+				</ul>
+			</li>
 			</ul>
 			<h3><a href='/' class = "muted">Developing Developer</a></h3>
 		</div>
@@ -25,11 +37,51 @@
 		<hr>
 
 		<div class="jumbotron">
-			<h1>Jasmina Xie</h1>
-			<p class="lead">Hi, I'm Jasmina. I'm a developing developer. Here's the neat JavaScript stuff I've learned so far.</p>
+			<p class="lead">One day I will be a JavaScript master. I'll be slowly building my arsenal and biding my time, for now.</p>
 		</div>
 
 		<hr>
+
+		<div id="myCarousel" class="carousel slide">
+			<h4 class="muted">baoBao (Bootstrap Carousel)</h4>
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+				<li data-target="#myCarousel" data-slide-to="3"></li>
+			</ol>
+			<!-- Carousel pictures -->
+			<div class="carousel-inner">
+				<div class="item active"><img src="../../img/baoBao1.jpg"/>
+					<div class="carousel-caption">
+						<h4>baoBao is a silly dog</h4>
+						<p>He makes funny faces.</p>
+					</div>
+				</div>
+				<div class="item"><img src="../../img/baoBao2.jpg"/>
+					<div class="carousel-caption">
+						<h4>baoBao follows you around</h4>
+						<p>And then runs into you.</p>
+					</div>
+				</div>
+				<div class="item"><img src="../../img/baoBao3.jpg"/>
+					<div class="carousel-caption">
+						<h4>baoBao's probably running towards food</h4>
+						<p>He doesn't know when to stop eating.</p>
+					</div>
+				</div>
+				<div class="item"><img src="../../img/baoBao4.jpg"/>
+					<div class="carousel-caption">
+						<h4>baoBao wishes he didn't have a cone</h4>
+						<p>Unfortunately he got his balls removed recently.</p>
+					</div>
+				</div>
+			</div>
+			<!-- Carousel nav -->
+			<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+			<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+		</div>
+
 
 		<div class="push"></div>
 	</div> <!-- /container -->
