@@ -48,6 +48,10 @@ html, body{
 	text-align: center;
 }
 
+.padded {
+	padding: 5px;
+}
+
 /*jQuery fun*/
 #food h5{
 	margin:0 0 5px 0;
