@@ -52,6 +52,12 @@ html, body{
 	padding: 5px;
 }
 
+.linkicon {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /*jQuery fun*/
 #food h5{
 	margin:0 0 5px 0;
