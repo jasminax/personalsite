@@ -1,17 +1,17 @@
 require 'sinatra'
 
 get '/' do
-	erb :index
+  erb :index
 end
 
 get '/jquery' do
-	erb :jquery
+  erb :jquery
 end
 
 get '/javascript' do
-	erb :javascript
+  erb :javascript
 end
 
 get '/blog' do
-	erb :blog
+  erb :blog
 end
